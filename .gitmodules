@@ -1,3 +1,6 @@
 [submodule "drivers/net/wireless/realtek/rtl8188eus"]
 	path = drivers/net/wireless/realtek/rtl8188eus
 	url = https://github.com/aircrack-ng/rtl8188eus.git
+[submodule "drivers/net/wireless/realtek/realtek_rtwifi"]
+	path = drivers/net/wireless/realtek/realtek_rtwifi
+	url = https://github.com/TBM13/realtek_rtwifi.git
