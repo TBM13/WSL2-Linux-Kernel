@@ -1,0 +1,3 @@
+[submodule "drivers/net/wireless/realtek/realtek_rtwifi"]
+	path = drivers/net/wireless/realtek/realtek_rtwifi
+	url = https://github.com/TBM13/realtek_rtwifi.git
