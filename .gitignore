@@ -168,3 +168,6 @@ sphinx_*/
 
 # Rust analyzer configuration
 /rust-project.json
+
+# Don't ignore firmware
+!/firmware/**
