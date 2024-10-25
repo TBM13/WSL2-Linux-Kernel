@@ -1999,9 +1999,11 @@ static int rtl8xxxu_start_firmware(struct rtl8xxxu_priv *priv)
 	}
 
 	if (i == RTL8XXXU_FIRMWARE_POLL_MAX) {
-		dev_warn(dev, "Firmware failed to start\n");
-		ret = -EAGAIN;
-		goto exit;
+		// dev_warn(dev, "Firmware failed to start\n");
+		// ret = -EAGAIN;
+		// goto exit;
+
+		dev_warn(dev, "Ignoring firmware start failure\n");
 	}
 
 	/*
